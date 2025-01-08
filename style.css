@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+}
+
+button {
+    padding: 20px 50px 20px;
+    border-radius: 50px;
+    font-family: 'Jersey 15', sans-serif;
+    font-size: 40px;
+    background-color: #f4f6f6;
+}
+
+button:hover {
+    background-color: #566573;
+    cursor: pointer;
+    border: 1px solid black;
+    color: #f2f3f4;
+    transition: ease-in 0.1s;
+}
