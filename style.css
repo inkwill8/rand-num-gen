@@ -6,12 +6,18 @@
 }
 
 body {
+    font-family: 'Menlo', sans-serif;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #252525;
+}
+
+h1 {
+    color: #f4f6f6;
+    margin-top: 20px;
 }
 
 div {
